@@ -106,6 +106,10 @@ Algorithm:
 
 
 
+
+
+
+
 2. Algorithm for Number Reversal
 
 Algorithm:
@@ -128,3 +132,113 @@ Algorithm:
 
 9. End.
  
+
+
+3.  Flipped Inverted Pyramid Pattern
+   
+Algorithm:
+
+1. Input the number of rows n.
+
+2. Loop from i = 0 to n - 1:
+
+3. Print i spaces.
+
+4. Print n - i stars (*), each followed by a space.
+
+5. Move to the next line.
+
+
+
+   
+
+4. Flipped Pyramid Pattern
+   
+ Algorithm:
+
+ 
+1. Input the number of rows n.
+
+2. Loop from i = 1 to n:
+
+3. Print n - i spaces.
+
+4. Print i stars (*), each followed by a space.
+
+5. Move to the next line.
+
+
+   
+
+5. Floyd’s Triangle Pattern
+
+   
+Algorithm:
+
+
+1. Input the number of rows n.
+
+2. Initialize a variable num = 1.
+
+3. Loop from i = 1 to n:
+
+4. Loop from j = 1 to i:
+
+5. Print the current value of num.
+
+6. Increment num.
+
+7. Move to the next line.
+
+
+
+
+
+6. Hourglass Pattern
+
+   
+Algorithm:
+
+
+1. Input the number of rows n.
+
+Top Half:
+
+1. Loop from i = n to 1:
+
+2. Print n - i spaces.
+
+3. Print i stars (*), each followed by a space.
+
+4. Move to next line.
+
+Bottom Half:
+
+1. Loop from i = 2 to n:
+
+2. Print n - i spaces.
+
+3. Print i stars (*), each followed by a space.
+
+4. Move to next line.
+
+
+
+
+
+7. Pyramid Pattern
+
+   
+Algorithm:
+
+
+1. Input the number of rows n.
+
+2. Loop from i = 1 to n:
+
+3. Print n - i spaces.
+
+4. Print i stars (*), each followed by a space.
+
+5. Move to the next line.
+
